@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+:root{
+    --cor-primaria-success : rgb(75, 200, 138);
+    --cor-secundaria-success: rgb(76, 168, 120);
+    --cor-hover-success : rgb(119, 143, 131);
+
+}
+
+#area{
+    position: relative;
+    left: 40%;
+    top: 29%;
+    width: 300px;
+    height: 200px;
+}
+#formulario{
+    position: absolute;
+    display: block;
+}
+.nome_cadastro{
+    position: relative;
+    left: 40%;
+    top: 29%;
+    font-family: 'Roboto', sans-serif;
+}
+.texto{
+    font-family: 'Roboto', sans-serif;
+    
+}
+.fieldset{
+    width: 400px;
+    height:150px;
+}
+
+.campo_nome{
+    position:absolute;
+    left:95px;
+    top:23px;
+    width:225px;
+
+}
+.campo_email{
+    position:absolute;
+    left:95px;
+    margin-top:2px;
+    width:225px;
+}
+.enviar{
+   border: none;
+   padding: 10px;
+   background-color: var(--cor-primaria-success);
+   outline: none;
+   color: #ffff;
+   transition: background .3s;
+   border-radius: 8px;
+
+
+}
+.enviar:hover{
+background-color: var(--cor-hover-success);
+    
+}
